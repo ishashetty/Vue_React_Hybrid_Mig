@@ -650,5 +650,4 @@ Once one component is successfully migrated, repeat the process for the next com
 Migrating from Vue to React incrementally can be a practical and low-risk approach, especially for large, complex applications. By bridging the two frameworks carefully — through custom Webpack configuration, shared state management with Redux, and a communication wrapper — React components can be embedded inside Vue without disrupting existing features.
 
 While the technical setup requires careful planning (e.g., avoiding default CRA plugins and exposing React components globally), the resulting architecture supports a smooth transition and reuse of components across frameworks.
----
 
